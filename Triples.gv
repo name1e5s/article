@@ -1,0 +1,13 @@
+digraph finite_state_machine {
+	node [shape = doublecircle]; A;
+	node [shape = circle];
+	A->A [label = "0,3,6,9"];
+	A->B [label = "1,4,7"];
+	A->C [label = "2,5,8"];
+	B->B [label = "0,3,6,9"];
+	B->C [label = "1,4,7"];
+	B->A [label = "2,5,8"];
+	C->C [label = "0,3,6,9"];
+	C->A [label = "1,4,7"];
+	C->B [label = "2,5,8"];
+}
