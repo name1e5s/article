@@ -1,4 +1,10 @@
-# Go 语言系统调用
+---
+title: Go 语言系统调用
+date: 2019-03-04 18:32:25
+tags:
+    - Go 语言
+categories: Go 语言
+---
 
 ### 64位 Linux 上的系统调用
 
