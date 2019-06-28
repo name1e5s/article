@@ -25,6 +25,8 @@ void ArrayTest(void) {
 }
 ```
 
+<!--more-->
+
 在此不再赘述。
 
 数组存在如下缺点：

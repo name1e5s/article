@@ -7,6 +7,8 @@ categories: CSAPP
 ---
 CS:APP 的 Lab 2，也就是所谓的二进制炸弹，是一个很有趣的实验，相比 Lab 1 的单纯烧脑，Lab 2 更多的是根据反汇编获得的指令来推测推测程序的行为，最终给出符合要求的答案。本文中笔者使用的环境为 Ubuntu 17.10 Artful Aardvark。
 
+<!--more-->
+
 首先，使用objdump 指令获取反汇编文本，并保存到 bomb.S 中，之后打开 gdb ，载入文件准备调试。
 
 ## Phase_1

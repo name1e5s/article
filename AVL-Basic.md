@@ -16,6 +16,8 @@ AVL 树是一种平衡二叉搜索树，得名于其发明者的名字（ Adelso
 
 [练习](https://leetcode.com/problems/balanced-binary-tree/description/)
 
+<!--more-->
+
 ## 实现原理
 
 为了保证二叉树的平衡， AVL 树引入了所谓监督机制，就是在树的某一部分的不平衡度超过一个阈值后触发相应的平衡操作。保证树的平衡度在可以接受的范围内。

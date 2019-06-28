@@ -17,6 +17,8 @@ Family Computer （ファミリーコンピュータ），缩写为 Famicom （�
 
 当然，现代的操作系统以及硬件已经无法直接运行 FC 游戏。不过好在我们可以通过使用软件模拟 NES 主机的硬件来让游戏运行在现在的电脑上。这类软件便被称为**模拟器**。现有的 NES 模拟器中较为著名的有全平台的 [FCEUX](http://fceux.com/web/home.html)，Android 上的 Nesoid，以及 Windows 专供的 [VirtuaNES](http://virtuanes.s1.xrea.com/)。笔者一直使用的便是 VirtualNES。本文的目的便是实现一个简单的 NES 模拟器。笔者在演示时使用的语言为 Go 语言，当然读者若是想自行实现的话可以使用其擅长的任意语言进行。
 
+<!--more-->
+
 ## 元始，上帝曰：宜读 iNES 文件。
 
 iNES 文件（拓展名 .nes，大小写均可）是 NES 游戏分发的事实标准。该文件标准的最初是由 [Marat Fayzullin](http://fms.komkon.org/) 为其模拟器 [iNES](http://fms.komkon.org/iNES/) 而开发的文件格式。要实现一个 NES 模拟器，我们要做的第一步就是读取 iNES 文件，并将之映射到内存中以备使用。

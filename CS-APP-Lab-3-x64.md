@@ -9,6 +9,8 @@ categories: CSAPP
 
 CSAPP 的 Lab 3 在第三版之前都是所谓的 Buffer Lab，而 CSAPP 第三版的配套 Lab 3 则是 Attack Lab。因为我们学校新开的计算机系统基础课可能要以此为实验，故再来重新感受一番。该 Lab 的实验流程与 Buffer Lab 基本相同，我们直接开始。本次实验笔者使用的环境为 Ubuntu 18.04。
 
+<!--more-->
+
 ### Part I: Code Injection Attacks
 
 按照惯例，我们先把 `ctarget` 的反汇编码保留一份。
